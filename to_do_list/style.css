@@ -5,7 +5,7 @@
 body{
   height: 100vh;
   background: url(study.jpg) no-repeat center center/ cover;
-
+  font-family: 'verdana';
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,14 @@ input{
   border-radius: 10px;
   font-size: 1.2rem;
   padding: 5px;
+}
+.heading{
+   font-size: 1.5rem;
+   background: white;
+   text-align: center;
+   margin-bottom: 20px;
+   border-radius: 7px;
+   color: green;
 }
 
 #add-task{

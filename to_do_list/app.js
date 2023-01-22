@@ -41,10 +41,10 @@ addTask.addEventListener('click', function(){
     }
   });
 
-  deleteButton.addEventListener('click', function(e){
-    let target = e.target
+  deleteButton.addEventListener('click', function(){
+    let target = this;
 
-    target.parentElement.parentElement.remove();
+    target.parentElement.remove();
   })
 
 })
